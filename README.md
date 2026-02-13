@@ -169,8 +169,8 @@ Applied **without** using the target variable:
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/yourusername/telco-churn-ml-databricks.git
-cd telco-churn-ml-databricks
+git clone [https://github.com/Fatima-EzzahraAboutaleb/churn-mlflow-databricks.git]
+cd churn-mlflow-databricks
 ```
 
 2. **Install dependencies:**
@@ -191,14 +191,12 @@ pip install -r requirements.txt
 
 1. **Import Notebooks:**
    - Import all `.dbc` files from `notebooks/` folder
-   - Run notebooks in order: 01 → 02 → 03 → 04 → 05 → 06
+   
 
 2. **Execute Pipeline:**
 ```python
 # In Databricks notebook
-%run ./notebooks/01_EDA
-%run ./notebooks/02_Preprocessing
-# ... continue with other notebooks
+%run ./MAIN_Complete_Pipeline.ipynb
 ```
 
 3. **View MLflow Experiments:**
