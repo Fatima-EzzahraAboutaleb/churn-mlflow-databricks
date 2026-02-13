@@ -68,12 +68,7 @@ This project implements a **complete end-to-end Machine Learning pipeline** for 
 telco-churn-ml-databricks/
 │
 ├──  notebooks/               # Databricks notebooks (.dbc)
-│   ├── 01_EDA.dbc             # Exploratory Data Analysis
-│   ├── 02_Preprocessing.dbc   # Data cleaning & feature engineering
-│   ├── 03_Dimensionality_Reduction.dbc
-│   ├── 04_Clustering.dbc      # Unsupervised learning
-│   ├── 05_Supervised_Models.dbc
-│   └── 06_Neural_Network.dbc  # Deep learning with TensorFlow
+│   
 │
 ├── 📁 src/                     # Python modules (production-ready)
 │   ├── preprocessing.py       # Data preprocessing utilities
